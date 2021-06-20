@@ -5,6 +5,7 @@ https://coral.ai/docs/accelerator/get-started/
 
 
 [MS VC++ 2019 redistributable](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
+
 [edgetpu_runtime_20210119.zip](https://github.com/google-coral/libedgetpu/releases/download/release-frogfish/edgetpu_runtime_20210119.zip)
 
 
