@@ -13,7 +13,9 @@ python3 -m pip install --extra-index-url https://google-coral.github.io/py-repo/
 
 
 mkdir coral && cd coral
+
 git clone https://github.com/google-coral/pycoral.git
+
 cd pycoral
 
 bash examples/install_requirements.sh classify_image.py
