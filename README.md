@@ -1,4 +1,4 @@
-# Coral
+# Google Coral USB Accelerator
 
 
 https://coral.ai/docs/accelerator/get-started/
