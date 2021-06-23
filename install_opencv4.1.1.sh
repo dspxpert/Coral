@@ -13,3 +13,6 @@ cp opencv4.1.1-for-google-coral/cv2.so /usr/local/lib/python3.7/dist-packages/cv
 sudo cp -r opencv4.1.1-for-google-coral/libraries/. /usr/local/lib
 
 sudo apt install python3-opencv
+
+# slower than default openCV 3.2
+# check the frame size difference?
