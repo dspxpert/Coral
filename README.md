@@ -8,27 +8,26 @@ https://coral.ai/docs/accelerator/get-started/
 
 [edgetpu_runtime_20210119.zip](https://github.com/google-coral/libedgetpu/releases/download/release-frogfish/edgetpu_runtime_20210119.zip)
 
-
+```
 python3 -m pip install --extra-index-url https://google-coral.github.io/py-repo/ pycoral
 
-
 mkdir coral && cd coral
-
 git clone https://github.com/google-coral/pycoral.git
-
 cd pycoral
-
 bash examples/install_requirements.sh classify_image.py
 
 python3 examples/classify_image.py \
 --model test_data/mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.tflite \
 --labels test_data/inat_bird_labels.txt \
 --input test_data/parrot.jpg
-
+```
 
 
 ### Examples-camera
+```
 git clone https://github.com/google-coral/examples-camera.git --depth 1
-
+```
 ### Keyword-spotter
+```
 git clone https://github.com/google-coral/project-keyword-spotter.git
+```
