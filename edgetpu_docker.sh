@@ -5,5 +5,5 @@
 # docker run -it --rm -v $(pwd):/home/edgetpu edgetpu_compiler [edgetpu_compiler YOUR_MODEL.tflite]
 if [ $# -eq 0 ]
 then docker run -it --rm -v $(pwd):/home/edgetpu edgetpu_compiler
-else docker run -it --rm -v $(pwd):/home/edgetpu edgetpu_compiler edgetpu_compiler $1 $2 $3 $4 $5 $6 $7 $8 $9
+else docker run -it --rm -v $(pwd):/home/edgetpu edgetpu_compiler edgetpu_compiler $@
 fi
