@@ -7,6 +7,7 @@ REM if "%1" == "" ( docker run -it --rm -v %cd%:/home/edgetpu edgetpu_compiler )
 
 set argc=0
 for %%x in (%*) do Set /A argc+=1
+
 if %argc% == 0 (
     docker run -it --rm -v %cd%:/home/edgetpu edgetpu_compiler
     GOTO:EOF
